@@ -2,7 +2,7 @@
 layout: home
 title: Home
 landing-title: 'Tim iOS'
-description: null
+description: The Journey of Learning iOS & Swift
 image: null
 author: null
 ---
