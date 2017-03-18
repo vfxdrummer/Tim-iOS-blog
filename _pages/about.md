@@ -17,11 +17,7 @@ nav-menu: true
 		<table style="width:100%">
   <tr>
     <th><img src="assets/images/pic03.jpg" alt="" /></th>
-    <th><img src="assets/images/pic03.jpg" alt="" /></th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>ok</td>
+    <th>testing testing</th>
   </tr>
 </table>
     
