@@ -1,17 +1,17 @@
 # Site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
+title: Tim iOS
+subtitle: The journey of learning iOS & Swift
+email: timothy.brandt@gmail.com
 description: "Come see cool iOS Shit"
 baseurl: "Tim-iOS-blog" # the subpath of your site, e.g. /blog
 url: "https://github.com/vfxdrummer/" # the base hostname & protocol for your site
-author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
+author: Timothy Brandt
+street_address: 3303 Virginia Ave
+city: Santa Monica
+state: CA
+zip_code: 90404
 country: United States of America
-phone: (716) 555-5555
+phone: (310) 867 3190
 
 # Homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
@@ -19,15 +19,15 @@ tiles-count: 6
 
 # Social settings
 500px_url:
-facebook_url:
-github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+facebook_url: https://www.facebook.com/TimiOSBlog
+github_url: https://github.com/vfxdrummer
+gitlab_url: 
+googleplus_url: 
+instagram_url: https://instagram.com/its_timmay/
+linkedin_url: https://www.linkedin.com/in/timothyrbrandt/
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url: https://twitter.com/timothyrbrandt
 
 # Build settings
 markdown: kramdown
