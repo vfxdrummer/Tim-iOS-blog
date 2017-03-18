@@ -26,6 +26,12 @@
 		line-height: 1;
 	}
 
+	img[alt=headshot] {
+  		width: 100%;
+  		border: none;
+  		background: none;
+        }
+
 	ol, ul {
 		list-style: none;
 	}
