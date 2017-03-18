@@ -16,10 +16,12 @@ nav-menu: true
 		
 		<table style="width:100%">
   <tr>
-    <th>Firstname</th>
+    <th><img src="assets/images/pic03.jpg" alt="" /></th>
+    <th><img src="assets/images/pic03.jpg" alt="" /></th>
   </tr>
   <tr>
     <td>Jill</td>
+    <td>ok</td>
   </tr>
 </table>
     
