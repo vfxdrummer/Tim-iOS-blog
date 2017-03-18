@@ -1,6 +1,6 @@
 ---
 title: UIKit Essentials
-layout: landing
+layout: post
 description: 'Exploring UIKit'
 ---
 
