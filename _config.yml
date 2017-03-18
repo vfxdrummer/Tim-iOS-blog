@@ -6,12 +6,12 @@ description: "Come see cool iOS Shit"
 baseurl: "/Tim-iOS-blog" # the subpath of your site, e.g. /blog
 url: "https://vfxdrummer.github.io/" # the base hostname & protocol for your site
 author: Timothy Brandt
-street_address: 3303 Virginia Ave
+street_address:
 city: Santa Monica
 state: CA
 zip_code: 90404
 country: United States of America
-phone: (310) 867 3190
+phone:
 
 # Homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
