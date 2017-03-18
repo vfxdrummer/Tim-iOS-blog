@@ -31,6 +31,8 @@ twitter_url: https://twitter.com/timothyrbrandt
 
 # Build settings
 markdown: kramdown
+include: ["_pages"]
+permalink: /:title/
 
 sass:
   style: compressed
