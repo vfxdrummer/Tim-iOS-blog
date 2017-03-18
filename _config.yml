@@ -4,7 +4,7 @@ subtitle: The journey of learning iOS & Swift
 email: timothy.brandt@gmail.com
 description: "Come see cool iOS Shit"
 baseurl: "/Tim-iOS-blog" # the subpath of your site, e.g. /blog
-url: "https://github.com/vfxdrummer/" # the base hostname & protocol for your site
+url: "https://vfxdrummer.github.io/" # the base hostname & protocol for your site
 author: Timothy Brandt
 street_address: 3303 Virginia Ave
 city: Santa Monica
