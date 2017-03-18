@@ -6,6 +6,4 @@ image: ../assets/images/pic11.jpg
 nav-menu: true
 ---
 
-# Swift
-
 Coming Soon : posts about the Swift Language
