@@ -1,8 +1,7 @@
 ---
-page: about
-page.title:  "About"
-page.url: "/test"
-page.date:   2017-03-17 16:14:23 -0700
+title:  "About"
+url: "/test"
+date:   2017-03-17 16:14:23 -0700
 categories: about
 permalink: "/about/"
 ---
