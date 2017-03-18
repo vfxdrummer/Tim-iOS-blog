@@ -13,6 +13,15 @@ nav-menu: true
 		<header class="major">
 			<h1>About</h1>
 		</header>
+		
+		<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+  </tr>
+</table>
     
     
 # About
