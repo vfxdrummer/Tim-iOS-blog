@@ -33,6 +33,7 @@ twitter_url: https://twitter.com/timothyrbrandt
 markdown: kramdown
 include: ["_pages"]
 permalink: /:title/
+safe: false
 
 sass:
   style: compressed
