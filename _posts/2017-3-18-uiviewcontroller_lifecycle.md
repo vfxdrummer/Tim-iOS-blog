@@ -56,7 +56,7 @@ This method is called before the view is removed from the view hierarchy. The vi
 This method is called after the VC's view has been removed from the view hierarchy. Use this method to stop listening for notifications or device sensors.
 
 ## - deinit:
-Before a view controller is removed from memory, it gets deinitialized. You usually override deinit() to clean resources that the view controller has allocated that are not freed by ARC. Kep in mind that just becaus a VC is no longer visible, doesn't mean that it has been deallocated. Container view controllers such as NavigationController can keep theur VCs available in memory. Keep in mind that even though a VC is off screen, if it is still in memory, it still works normally and can receive notifications.
+Before a view controller is removed from memory, it gets deinitialized. You usually override deinit() to clean resources that the view controller has allocated that are not freed by ARC. Keep in mind that just because a VC is no longer visible, doesn't mean that it has been deallocated. Container view controllers such as NavigationController can keep their VCs available in memory. Keep in mind that even though a VC is off screen, if it is still in memory, it still works normally and can receive notifications.
 
 ## Resource Notification
 
