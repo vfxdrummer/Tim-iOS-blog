@@ -72,6 +72,7 @@ Called after rotation
 ## Diagram
 ![lifecycle]({{ site.url }}/Tim-iOS-blog/assets/images/lifecycle.jpg)
 
-
+## Official Apple Docs
+[UIViewController Apple Docs](https://developer.apple.com/reference/uikit/uiviewcontroller)
 
 
