@@ -30,7 +30,7 @@ The following methods are called on the View Controller upon view lifecycle stat
 The view controller calls this method when its view property is requested but is currently nil. In this method the view, which the view controller manages, is either created or loaded. As mentioned above, you can override this method when you want to create your views programmatically, instead of using SToryboard or Nibs.
 
 ### – viewDidLoad:
-This method is called once after the view hierchy is loaded into memory, before the bounds of the view are defined. It is common to use this method to populate the user interface of the view controller with data before the user sees it. It is also a good place where to start some background activity where you need to have the user interface in place at the end. A common case are network calls that you need to do only once when the screen is loaded. 
+This method is called once after the view hierarchy is loaded into memory, before the bounds of the view are defined. It is common to use this method to populate the user interface of the view controller with data before the user sees it. It is also a good place where to start some background activity where you need to have the user interface in place at the end. A common case are network calls that you need to do only once when the screen is loaded. 
 
 ### – viewWillAppear:
 This method is called each time before the view is made visible to the screen, before any animations are configured. When this event is fired, the view has bounds, but orientation is not set. Add code here that should be run each time the screen is shown.
