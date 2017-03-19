@@ -22,18 +22,23 @@ Specify the views for a view controller using the ```loadView()``` method. In th
 
 It is important to mention that view controllers load their views lazily. Accessing the view property for the first time loads or creates the view controller’s views. 
 
-## Delegate Methods
+## Notification Methods
 
-The following methods are called on the View Controller upon view lifecycle state changes.
+The following methods are called on the View Controller upon view lifecycle state changes. 
+This allows the signals to propogate to any UIViewController subclasses. 
 
 ### – loadView:
 The view controller calls this method when its view property is requested but is currently nil. In this method the view, which the view controller manages, is either created or loaded. As mentioned above, you can override this method when you want to create your views programmatically, instead of using SToryboard or Nibs.
 
+### - viewWillLoad:
+This is fired when the VC begins the process of fetching a UIView for the view property, the lazy load process has begun.
+I can't say that I have ever seen this method used in an app, but it is available.
+
 ### – viewDidLoad:
 This method is called once after the view hierarchy is loaded into memory, before the bounds of the view are defined. It is common to use this method to populate the user interface of the view controller with data before the user sees it. It is also a good place where to start some background activity where you need to have the user interface in place at the end. A common case are network calls that you need to do only once when the screen is loaded. 
 
-### – viewWillAppear:
-This method is called each time before the view is made visible to the screen, before any animations are configured. When this event is fired, the view has bounds, but orientation is not set. Add code here that should be run each time the screen is shown.
+### – viewWillAppear:(BOOL)animated
+This method is called each time before the view is made visible to the screen, before any animations are configured. The animated BOOL lets you know if the view will appear immediately or after a transition. When this event is fired, the view has bounds, but orientation is not set. Add code here that should be run each time the screen is shown.
 
 ### – viewWillLayoutSubviews:
 This notifies the VC that we are about to layout its subviews. One example is when orientation is changed. At this point, view bounds are finalized. This method is typically overriden if we want to adjust subviews manually.
@@ -49,6 +54,9 @@ This method is called before the view is removed from the view hierarchy. The vi
 
 ### - viewDidDisappear:
 This method is called after the VC's view has been removed from the view hierarchy. Use this method to stop listening for notifications or device sensors.
+
+## - deinit:
+Before a view controller is removed from memory, it gets deinitialized. You usually override deinit() to clean resources that the view controller has allocated that are not freed by ARC. Kep in mind that just becaus a VC is no longer visible, doesn't mean that it has been deallocated. Container view controllers such as NavigationController can keep theur VCs available in memory. Keep in mind that even though a VC is off screen, if it is still in memory, it still works normally and can receive notifications.
 
 ## Resource Notification
 
