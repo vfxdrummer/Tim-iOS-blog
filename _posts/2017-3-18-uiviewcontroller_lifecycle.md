@@ -68,13 +68,6 @@ When memory starts to fill up, iOS does not automatically move data from memory 
 ### - viewWillTransition(to:with:)
 When the interface orientation changes, UIKit calls this method on the window’s root view controller before the size changes are about to be made. The root view controller then notifies its child view controllers, propagating the message throughout the view controller hierarchy. to contains the new CGSize size of the container's view and with contains a UIViewControllerTransitionCoordinator coordinator, an enum that describes the new orientation.
 
-### - willRotate(to:duration:)
-Called before rotation.
-
-### - willAnimateRotation(to:duration:)
-Called before rotation animation
-
-
 ## Diagram
 ![lifecycle]({{ site.url }}/Tim-iOS-blog/assets/images/lifecycle.jpg)
 
