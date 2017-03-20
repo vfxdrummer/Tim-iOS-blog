@@ -26,6 +26,12 @@
 		line-height: 1;
 	}
 
+        img[alt=lifecycle] {
+                width: 70%;
+                border: none;
+                background: none;
+        }
+
 	img[alt=headshot] {
   		width: 100%;
   		border: none;
